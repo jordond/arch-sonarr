@@ -37,6 +37,8 @@ EXPOSE 9897
 
 ENV XDG_CONFIG_HOME /config
 
+RUN [ "sh", "-c", "export", "XDG_CONFIG_HOME=/config" ]
+
 # run supervisor
 ################
 
