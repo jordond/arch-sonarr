@@ -35,6 +35,8 @@ EXPOSE 8989
 # expose port for https
 EXPOSE 9897
 
+ENV XDG_CONFIG_HOME /config
+
 # run supervisor
 ################
 
