@@ -1,5 +1,7 @@
-FROM binhex/arch-base:2015031900
-MAINTAINER binhex
+FROM jordond/arch-base:2015031900
+MAINTAINER jordond
+
+# forked from binhex
 
 # additional files
 ##################
