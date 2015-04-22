@@ -1,4 +1,4 @@
-FROM jordond/arch-base:2015031900
+FROM jordond/arch-base
 MAINTAINER jordond
 
 # forked from binhex
